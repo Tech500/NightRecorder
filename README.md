@@ -2,7 +2,7 @@
 
 An ESP32 night sound-event recorder. An INMP441 I2S microphone listens all night; when a sound rises above an adaptive threshold, the ESP32 saves a short WAV clip (with about one second of pre-roll) to its flash and pushes it over Wi-Fi to a small receiver on a PC. The PC acknowledges each file, and only then does the ESP32 delete its copy.
 
-Current version: **v2.2** (LittleFS + HTTP upload). Version 2.1 and earlier served the clips over FTP; see [Why HTTP upload](#why-http-upload).
+Current version: **v2.6b* (LittleFS + HTTP upload). Version 2.1 and earlier served the clips over FTP; see [Why HTTP upload](#why-http-upload).
 
 ## How it works
 
